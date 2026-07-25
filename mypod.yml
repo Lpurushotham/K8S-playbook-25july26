@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: Lakki-pod
+  name: lakki-pod
 spec:
   containers:
     - name: 1st-container
