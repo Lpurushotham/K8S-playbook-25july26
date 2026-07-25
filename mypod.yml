@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hello-pod
+  name: Lakki-pod
 spec:
   containers:
-    - name: my-first-container
+    - name: first-container
       image: nginx
       ports:
       - containerport: 80
