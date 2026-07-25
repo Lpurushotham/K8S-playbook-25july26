@@ -4,7 +4,7 @@ metadata:
   name: Lakki-pod
 spec:
   containers:
-    - name: first-container
+    - name: 1st-container
       image: nginx
       ports:
       - containerport: 80
