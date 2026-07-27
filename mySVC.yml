@@ -7,9 +7,8 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - ports: 8080
-     nodeport: 80001
+  - port: 8080
+     nodePort: 80001
      protocol: TCP
   selector:
     app: myapp
-    
