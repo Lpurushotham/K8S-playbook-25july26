@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: myapp-SVC
+  name: myapp-svc
   labels:
     app: myapp
 spec:
   type: NodePort
   ports:
   - port: 8080
-     nodePort: 80001
+     nodePort: 30001
      protocol: TCP
   selector:
     app: myapp
